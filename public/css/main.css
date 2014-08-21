@@ -1,4 +1,6 @@
 body {
+    background: url('../noise.png');
+    background-size: cover;
     width: 100%;
     margin: 0;
     font-family: monospace, sans-serif;
