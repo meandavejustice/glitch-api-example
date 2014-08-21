@@ -23,18 +23,23 @@ img {
 }
 
 .msbtn {
+    text-decoration: none;
+    color: black;
     margin-bottom: 10px;
     padding: 4px;
     border-radius: 2px;
     border-bottom: 2px solid #000;
-    border-right: 2px solid #000;
-    border-top: 2px solid #FFF;
+    border-right: 2px solid #000;    border-top: 2px solid #FFF;
     background: #EBE8D9;
     border-left: 2px solid #FFF;
 }
 
-.ms-btn:first-letter {
-    text-decoration: underline;
+.msbtn::first-letter {
+    text-decoration: underline !important;
+}
+
+.resubmit {
+    display: none;
 }
 
 .kill {
